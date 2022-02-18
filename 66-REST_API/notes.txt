@@ -1,0 +1,43 @@
+
+API
+
+Client makes a request to Server
+    HTTP - Hypertext Treansfer Protocol
+    HTTPS - HTTP Secure
+    FTP - File Transfer Protocol
+    Different language request
+
+Client -> API -> Server
+
+Server sees it as a valid request and can send the requested item.
+Or Server needs to access its database to get item/data
+
+REST is an architectural style for designing APIs
+    SOAP, GraphQL or FALCOR
+
+What makes an API RESTful?
+    Using HTTP Request Verbs (GET, POST, PUT, PATCH, DELETE)
+    Use Specific Pattern of Routes/Endpoints URLs
+        
+RESTful Routing
+HTTP Verbs      /articles                       /articles/jack-bauer
+    GET         Fetches all the articles        Fetches the article on item
+    POST        Creates one new article         
+    PUT                                         Updates the article on item
+    PATCH                                       Updates the article on item
+    DELETE      Deletes all the articles        Deletes the article on item
+
+With server acting as API, we want to return a JSON containing necessary data like real public APIs
+http://api.open-notify.org/iss-now.json
+
+Need to turn our random_cafe SQLAlchemy Object into a JSON. 
+This process is called serialization.
+Flask has serialisation helper method built-in called jsonify().
+    But need to provide structure of the JSON to return.
+    https://www.kite.com/python/docs/flask.jsonify
+
+You are sent a damaged bike.
+PUT - sending entire new data, shippingg entire new bike
+Patch - sending part of new data, shipping a wheel for a new bike
+
+    

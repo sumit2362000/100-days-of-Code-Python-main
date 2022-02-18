@@ -1,0 +1,40 @@
+
+
+Authentication
+Differentiate and restrict user data/access based off user ID
+
+Home
+Register
+Log In
+Secrets
+
+Encryption
+Password+key -> Cipher Method = Ciphertext
+
+Hashing - no longer need encryption key
+Password -> HashFunction-> Hash
+Turn that password into a Hash
+    makes it almost impossible to go from Hash to password
+    Hash Function calculated quickly going forward, calculated LONG going backward
+Ex) Login Password ->HashFunction-> Hash
+    Hash is stored in Database
+    User logins in again, password goes through Hashfunction
+    If database finds matching Hash, user is logged in
+
+Hacking Passwords
+Once a hacker has that hashed password. It is easier to hack those with the same hashed password.
+Try to make password as LONG and complex for yourself.
+
+Salting
+password + randomcharacters ->HashFunction-> Hash
+resulting hash is created with the random salt(randomcharacters) as well
+MD5
+bcrypt
+the more rounds you salt the passwords with, the harder it is to crack
+Salt Rounds
+    password+salt ->HashFunction-> Hash
+    Hash+salt ->HashFunction-> newHash
+etc.
+
+
+

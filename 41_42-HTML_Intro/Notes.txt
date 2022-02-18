@@ -1,0 +1,39 @@
+
+6. How does the internet actually work
+-Servers are 24/7 online ready to serve data and files requested
+-Client is the computer user uses.
+-Your browser sends message to ISP(Internet Service Provider), which relay
+message to a DNS(Domain Name System) server. DNS Server looks in database
+for the exact IP address. DNS sends that back to your browser so now your
+client knows the exact IP address. Your client sends a direct request to
+that IP address through your ISP via the Internet backbone which is then
+directed to those servers. Those servers send data and files back to the
+client for use.
+
+7. How do websites actually work.
+-HTML(HyperText Markup Language) provide the structure of the website, adds images buttons etc. Builders
+    of the websites.
+-CSS files responsible for styling website, painters and decorators of
+    websites.
+-JavaScript codes allows the website to do things and have behavior.
+    Electricians, and plumbing etcs. of the house so.
+-ex) Google, once we receive the HTML files we see the logo, 2 buttons
+    and the text box. Once we receive the CSS files it modifies the
+        appearance of those. The Javascript files the website has
+        functionality and behavior.
+-Right clicking a part of the website and select inspect. It opens up the
+    entire codes file that renders this website. Only changes local copy
+    of the file I got back from the website servers hitting refresh will
+    update to the original content.
+
+14. HTML Boilerplate
+-Use <em> vs <i> for italics, use <em> over <i>
+-Use <strong> vs <b> for bolding, shows it has meaning
+-google everything with mdn for webdev resources
+
+16. HTML Lists, ol-ordered list, ul-unordered list
+17. images
+
+Emojis
+WIN + .
+WIN + ;

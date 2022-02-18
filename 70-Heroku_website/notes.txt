@@ -1,0 +1,53 @@
+
+Install Git for Windows
+https://gitforwindows.org/
+
+Working directory
+git tracks changes between local repository and working directory
+Staging area, figure out which things you want git to track or ignore
+Local Repository, file commited in Local repository with name using -m
+git checkout to revert back to recent version
+Remote Repository or Github with our publicly comitted
+
+add file inside working directory
+~touch filename.txt
+
+initialize git
+~git init
+
+see all hidden files
+~ls -a
+
+In working directory, to start tracking changes add file to staging area
+    Staging area - intermediate place where you can pick and 
+        choose file inside your working directory you want to commit
+
+See what's inside staging area
+~git status
+    untracked files will be shown in red
+        These are inside working directory but not in staging area
+
+add file to staging area 
+~git add filename.txt
+
+add all files in firectory to staging area
+~git add .
+
+commit changes
+~git commit
+commit message, to help you keep track of what changes were made
+~git commit -m "update message for you"
+ex) ~git commit -m "Initial Commit"
+
+See commits
+~git log
+
+Check the differences between last save point in repository and working directory?
+~git diff filename.txt
+
+Rollback to latest save point in repository
+~git checkout filename.txt
+
+WSGI - WEb Server Gateway Interface
+https://www.python.org/dev/peps/pep-3333/
+

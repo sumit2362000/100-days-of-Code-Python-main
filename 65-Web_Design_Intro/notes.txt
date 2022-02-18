@@ -1,0 +1,32 @@
+
+Colour Theory: Be aware of the mood the colors bring. 
+    RED: Love, Energy, Intensity
+    Yellow: Joy, Intellect, Attention
+    Green: Freshness, Safety, Growth
+    Blue: Stability, Trust, Serenity
+    Purple: Royalty, Wealth, Feminity
+
+Analagous colors: similar colors with mixing
+Complementary colors: clashing popping colors with different spectrums
+https://colorhunt.co/
+https://color.adobe.com/create/color-wheel
+
+Typography: Fonts matter. Serif font. Sans-Serif pref.
+
+User Interface Design:
+    Size
+    Layout
+    Alignment
+    White Space
+    Design for your Audience
+
+User Experience Design:
+    Simplicity
+    Consistency
+    People Reading Pattern: 
+        F pattern
+        Z pattern
+    All Platform design: mobile, tablet and Desktop responsive
+    Dark Pattern: Don't use your powers for evil, patterns that get people to something for the business sake over user sake
+
+Use Canva.com to create a template and design.
